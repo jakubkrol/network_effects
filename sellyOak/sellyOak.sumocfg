@@ -1,0 +1,40 @@
+<configuration>
+    <input>
+        <net-file value="sellyOak.net.xml"/>
+        <route-files value="sellyOak.rou.xml"/>
+    g   <!--<gui-settings-file value="gui-settings.cfg"/>-->
+        <additional-files value="sellyOak.det.xml"/>
+        <load-state value="states_windows/state_28800.00.sbx"/>
+    </input>
+    <output>
+        <!--<summary-output value="test_results/summary_R000_CVP000_sellyOak.xml"/>-->
+        <!--<tripinfo-output value="test_results/tripinfo_R000_CVP000_sellyOak.xml"/>-->
+        <netstate-dump value="./test_results/adam_original_reference_sim.xml" freq="2"/>
+        <netstate-dump.precision value="4"/>
+        <!--<vehroute-output value="test_results/vehroute_R000_CVP000_sellyOak.xml"/-->
+        <!--queue-output value="test_results/queuedata_R000_CVP000_sellyOak.xml"/-->
+    </output>
+    <time>
+        <begin value="28800"/>
+        <!--stop sim, especially selly oak, after 35 hrs-->
+        <step-length value="0.1"/>
+    </time>
+    <processing>
+        <!--TURN OFF TELEPORTING-->
+        <time-to-teleport value="-1"/>
+        <ignore-junction-blocker value="60"/>
+        <collision.mingap-factor value="0"/>
+        <!--no-internal-links value="true"/-->
+    </processing>
+    <random_number>
+        <seed value="23423"/>
+    </random_number>
+    <report>
+        <no-step-log value="true"/>
+        <!--error-log value="logfile.txt"/-->
+    </report>
+    <traci_server>
+        <remote-port value="8857"/>
+    </traci_server>
+
+</configuration>
