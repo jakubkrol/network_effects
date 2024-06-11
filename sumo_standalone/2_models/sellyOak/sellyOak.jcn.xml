@@ -1,0 +1,70 @@
+<junctions>
+	<junction id="junc0" offset="0">
+		<stage id="0" period="60" controlString="rrrgGGgrrrrrrr"/>
+		<stage id="2" period="30" controlString="rrrrrrrGGGrrrr"/>
+		<stage id="4" period="60" controlString="rrrrrrrrrrGGGG"/>
+		<stage id="6" period="30" controlString="GGGrrrrrrrrrrr"/>
+	</junction>
+	<junction id="junc1" offset="0">
+		<stage id="0" period="40" controlString="rrgGGGGr"/>
+		<stage id="1" period="4" controlString="rrrrrGGr"/>
+		<stage id="2" period="20" controlString="rrrrrGGG"/>
+		<stage id="4" period="30" controlString="GGrrrrrr"/>
+	</junction>
+	<junction id="junc10" offset="0">
+		<stage id="0" period="60" controlString="rrrrGGGggGGG"/>
+		<stage id="2" period="30" controlString="GGggrrrrrrrr"/>
+	</junction>
+	<junction id="junc11" offset="0">
+		<stage id="0" period="60" controlString="rGGG"/>
+		<stage id="2" period="30" controlString="Grrr"/>
+	</junction>
+	<junction id="junc12" offset="0">
+		<stage id="0" period="45" controlString="GGGGGGrrrrrrrrrrrrrrrrrr"/>
+		<stage id="2" period="45" controlString="rrrrrrGGGGGGrrrrrrrrrrrr"/>
+		<stage id="4" period="45" controlString="rrrrrrrrrrrrGGGGGGrrrrrr"/>
+		<stage id="6" period="45" controlString="rrrrrrrrrrrrrrrrrrGGGGGG"/>
+	</junction>
+	<junction id="junc3" offset="0">
+		<stage id="0" period="45" controlString="GGGGGGrrrrrrrrrrrrrrrrrr"/>
+		<stage id="2" period="45" controlString="rrrrrrGGGGGGrrrrrrrrrrrr"/>
+		<stage id="4" period="45" controlString="rrrrrrrrrrrrGGGGGGrrrrrr"/>
+		<stage id="6" period="45" controlString="rrrrrrrrrrrrrrrrrrGGGGGG"/>
+	</junction>
+	<junction id="junc4" offset="0">
+		<stage id="0" period="60" controlString="GGGGrrrr"/>
+		<stage id="2" period="30" controlString="rrGGGGrr"/>
+		<stage id="3" period="4" controlString="rrrrrGrr"/>
+		<stage id="4" period="60" controlString="rrrrrGGG"/>
+	</junction>
+	<junction id="junc5" offset="0">
+		<stage id="0" period="60" controlString="rrrgGGgrrrrrrr"/>
+		<stage id="2" period="20" controlString="rrrrrrrGGGrrrr"/>
+		<stage id="4" period="60" controlString="rrrrrrrrrrGGGG"/>
+		<stage id="6" period="30" controlString="GGGrrrrrrrrrrr"/>
+	</junction>
+	<junction id="junc6" offset="0">
+		<stage id="0" period="60" controlString="GGrrrrrGGG"/>
+		<stage id="1" period="4" controlString="GGrrrrrrrr"/>
+		<stage id="2" period="20" controlString="GGGrrrrrrr"/>
+		<stage id="4" period="30" controlString="rrrGGGGrrr"/>
+	</junction>
+	<junction id="junc7" offset="0">
+		<stage id="0" period="45" controlString="GGrrrgGG"/>
+		<stage id="1" period="4" controlString="GGrrrrrr"/>
+		<stage id="2" period="10" controlString="GGgrrrrr"/>
+		<stage id="4" period="20" controlString="rrrGGrrr"/>
+	</junction>
+	<junction id="junc8" offset="0">
+		<stage id="0" period="60" controlString="GGGGGrrr"/>
+		<stage id="1" period="4" controlString="rrrGGrrr"/>
+		<stage id="2" period="15" controlString="rrrGGgrr"/>
+		<stage id="4" period="30" controlString="rrrrrrGG"/>
+	</junction>
+	<junction id="junc9" offset="0">
+		<stage id="0" period="60" controlString="rGGGGrrrrrrrGGGr"/>
+		<stage id="1" period="3" controlString="rrrrrrrrrrrrGGGr"/>
+		<stage id="2" period="20" controlString="GrrrrrrrrrrrGGGG"/>
+		<stage id="4" period="45" controlString="rrrrrGGGGGGGrrrr"/>
+	</junction>
+</junctions>

@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 04/16/20 17:35:05 by SUMO netconvert Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="sellyOak.net.xml"/>
+    </input>
+
+    <output>
+        <plain-output-prefix value="sellyOak"/>
+    </output>
+
+    <processing>
+        <no-turnarounds value="true"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+        <junctions.corner-detail value="0"/>
+        <rectangular-lane-cut value="false"/>
+        <walkingareas value="false"/>
+    </processing>
+
+</configuration>
+-->
+
+<tlLogics version="0.27" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <tlLogic id="junc0" type="static" programID="0" offset="0">
+        <phase duration="60" state="rrrgGGgrrrrrrr"/>
+        <phase duration="4" state="rrryyyyrrrrrrr"/>
+        <phase duration="30" state="rrrrrrrGGGrrrr"/>
+        <phase duration="4" state="rrrrrrryyyrrrr"/>
+        <phase duration="60" state="rrrrrrrrrrGGGG"/>
+        <phase duration="4" state="rrrrrrrrrryyyy"/>
+        <phase duration="30" state="GGGrrrrrrrrrrr"/>
+        <phase duration="4" state="yyyrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="junc1" type="static" programID="0" offset="0">
+        <phase duration="40" state="rrgGGGGr"/>
+        <phase duration="4" state="rryyyGGr"/>
+        <phase duration="20" state="rrrrrGGG"/>
+        <phase duration="4" state="rrrrryyy"/>
+        <phase duration="30" state="GGrrrrrr"/>
+        <phase duration="4" state="yyrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="junc10" type="static" programID="0" offset="0">
+        <phase duration="60" state="rrrrGGGggGGG"/>
+        <phase duration="4" state="rrrryyyyyyyy"/>
+        <phase duration="30" state="GGggrrrrrrrr"/>
+        <phase duration="4" state="yyyyrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="junc11" type="static" programID="0" offset="0">
+        <phase duration="60" state="rGGG"/>
+        <phase duration="4" state="ryyy"/>
+        <phase duration="30" state="Grrr"/>
+        <phase duration="4" state="yrrr"/>
+    </tlLogic>
+    <tlLogic id="junc12" type="static" programID="0" offset="0">
+        <phase duration="45" state="GGGGGGrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="4" state="yyyyyyrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="45" state="rrrrrrGGGGGGrrrrrrrrrrrr"/>
+        <phase duration="4" state="rrrrrryyyyyyrrrrrrrrrrrr"/>
+        <phase duration="45" state="rrrrrrrrrrrrGGGGGGrrrrrr"/>
+        <phase duration="4" state="rrrrrrrrrrrryyyyyyrrrrrr"/>
+        <phase duration="45" state="rrrrrrrrrrrrrrrrrrGGGGGG"/>
+        <phase duration="4" state="rrrrrrrrrrrrrrrrrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="junc3" type="static" programID="0" offset="0">
+        <phase duration="45" state="GGGGGGrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="4" state="yyyyyyrrrrrrrrrrrrrrrrrr"/>
+        <phase duration="45" state="rrrrrrGGGGGGrrrrrrrrrrrr"/>
+        <phase duration="4" state="rrrrrryyyyyyrrrrrrrrrrrr"/>
+        <phase duration="45" state="rrrrrrrrrrrrGGGGGGrrrrrr"/>
+        <phase duration="4" state="rrrrrrrrrrrryyyyyyrrrrrr"/>
+        <phase duration="45" state="rrrrrrrrrrrrrrrrrrGGGGGG"/>
+        <phase duration="4" state="rrrrrrrrrrrrrrrrrryyyyyy"/>
+    </tlLogic>
+    <tlLogic id="junc4" type="static" programID="0" offset="0">
+        <phase duration="60" state="GGGGrrrr"/>
+        <phase duration="4" state="yyyyrrrr"/>
+        <phase duration="30" state="rrGGGGrr"/>
+        <phase duration="4" state="rryyyGrr"/>
+        <phase duration="60" state="rrrrrGGG"/>
+        <phase duration="4" state="rrrrryyy"/>
+    </tlLogic>
+    <tlLogic id="junc5" type="static" programID="0" offset="0">
+        <phase duration="60" state="rrrgGGgrrrrrrr"/>
+        <phase duration="4" state="rrryyyyrrrrrrr"/>
+        <phase duration="20" state="rrrrrrrGGGrrrr"/>
+        <phase duration="4" state="rrrrrrryyyrrrr"/>
+        <phase duration="60" state="rrrrrrrrrrGGGG"/>
+        <phase duration="4" state="rrrrrrrrrryyyy"/>
+        <phase duration="30" state="GGGrrrrrrrrrrr"/>
+        <phase duration="4" state="yyyrrrrrrrrrrr"/>
+    </tlLogic>
+    <tlLogic id="junc6" type="static" programID="0" offset="0">
+        <phase duration="60" state="GGrrrrrGGG"/>
+        <phase duration="4" state="GGrrrrryyy"/>
+        <phase duration="20" state="GGGrrrrrrr"/>
+        <phase duration="4" state="yyyrrrrrrr"/>
+        <phase duration="30" state="rrrGGGGrrr"/>
+        <phase duration="4" state="rrryyyyrrr"/>
+    </tlLogic>
+    <tlLogic id="junc7" type="static" programID="0" offset="0">
+        <phase duration="45" state="GGrrrgGG"/>
+        <phase duration="4" state="GGyrryyy"/>
+        <phase duration="10" state="GGgrrrrr"/>
+        <phase duration="4" state="yyyrrrrr"/>
+        <phase duration="20" state="rrrGGrrr"/>
+        <phase duration="4" state="rrryyrrr"/>
+    </tlLogic>
+    <tlLogic id="junc8" type="static" programID="0" offset="0">
+        <phase duration="60" state="GGGGGrrr"/>
+        <phase duration="4" state="yyyGGyrr"/>
+        <phase duration="15" state="rrrGGgrr"/>
+        <phase duration="4" state="rrryyyrr"/>
+        <phase duration="30" state="rrrrrrGG"/>
+        <phase duration="4" state="rrrrrryy"/>
+    </tlLogic>
+    <tlLogic id="junc9" type="static" programID="0" offset="0">
+        <phase duration="60" state="rGGGGrrrrrrrGGGr"/>
+        <phase duration="3" state="ryyyyrrrrrrrGGGr"/>
+        <phase duration="20" state="GrrrrrrrrrrrGGGG"/>
+        <phase duration="3" state="yrrrrrrrrrrryyyy"/>
+        <phase duration="45" state="rrrrrGGGGGGGrrrr"/>
+        <phase duration="3" state="rrrrryyyyyyyrrrr"/>
+    </tlLogic>
+
+    <connection from="edge103" to="edge58" fromLane="0" toLane="0" tl="junc4" linkIndex="5"/>
+    <connection from="edge103" to="edge232" fromLane="1" toLane="0" tl="junc4" linkIndex="6"/>
+    <connection from="edge103" to="edge232" fromLane="2" toLane="1" tl="junc4" linkIndex="7"/>
+    <connection from="edge104" to="edge234" fromLane="0" toLane="0" tl="junc5" linkIndex="7"/>
+    <connection from="edge104" to="edge34" fromLane="0" toLane="0" tl="junc5" linkIndex="8"/>
+    <connection from="edge104" to="edge105" fromLane="0" toLane="1" tl="junc5" linkIndex="9"/>
+    <connection from="edge113" to="edge3260" fromLane="0" toLane="0" tl="junc7" linkIndex="3"/>
+    <connection from="edge113" to="edge112" fromLane="0" toLane="1" tl="junc7" linkIndex="4"/>
+    <connection from="edge114" to="edge112" fromLane="0" toLane="0" tl="junc7" linkIndex="0"/>
+    <connection from="edge114" to="edge112" fromLane="1" toLane="1" tl="junc7" linkIndex="1"/>
+    <connection from="edge114" to="edge3179" fromLane="2" toLane="0" tl="junc7" linkIndex="2"/>
+    <connection from="edge116" to="edge115" fromLane="0" toLane="0" tl="junc8" linkIndex="6"/>
+    <connection from="edge116" to="edge3263" fromLane="0" toLane="1" tl="junc8" linkIndex="7"/>
+    <connection from="edge117" to="edge3262" fromLane="0" toLane="0" tl="junc8" linkIndex="0"/>
+    <connection from="edge117" to="edge115" fromLane="0" toLane="0" tl="junc8" linkIndex="1"/>
+    <connection from="edge117" to="edge115" fromLane="1" toLane="1" tl="junc8" linkIndex="2"/>
+    <connection from="edge131" to="edge61" fromLane="0" toLane="0" tl="junc6" linkIndex="0"/>
+    <connection from="edge131" to="edge61" fromLane="1" toLane="1" tl="junc6" linkIndex="1"/>
+    <connection from="edge131" to="edge249" fromLane="2" toLane="0" tl="junc6" linkIndex="2"/>
+    <connection from="edge142" to="edge218" fromLane="0" toLane="0" tl="junc3" linkIndex="6"/>
+    <connection from="edge142" to="edge218" fromLane="0" toLane="1" tl="junc3" linkIndex="8"/>
+    <connection from="edge142" to="edge107" fromLane="0" toLane="0" tl="junc3" linkIndex="7"/>
+    <connection from="edge142" to="edge107" fromLane="1" toLane="1" tl="junc3" linkIndex="9"/>
+    <connection from="edge142" to="edge106" fromLane="2" toLane="0" tl="junc3" linkIndex="11"/>
+    <connection from="edge142" to="edge106" fromLane="2" toLane="1" tl="junc3" linkIndex="10"/>
+    <connection from="edge162" to="edge206" fromLane="0" toLane="0" tl="junc9" linkIndex="0"/>
+    <connection from="edge182" to="edge105" fromLane="0" toLane="0" tl="junc5" linkIndex="0"/>
+    <connection from="edge182" to="edge3117" fromLane="0" toLane="0" tl="junc5" linkIndex="1"/>
+    <connection from="edge182" to="edge234" fromLane="0" toLane="1" tl="junc5" linkIndex="2"/>
+    <connection from="edge188" to="edge176" fromLane="0" toLane="0" tl="junc1" linkIndex="5"/>
+    <connection from="edge188" to="edge176" fromLane="1" toLane="1" tl="junc1" linkIndex="6"/>
+    <connection from="edge188" to="edge3025" fromLane="1" toLane="0" tl="junc1" linkIndex="7"/>
+    <connection from="edge19" to="edge101" fromLane="0" toLane="0" tl="junc0" linkIndex="7"/>
+    <connection from="edge19" to="edge288" fromLane="0" toLane="0" tl="junc0" linkIndex="8"/>
+    <connection from="edge19" to="edge39" fromLane="0" toLane="1" tl="junc0" linkIndex="9"/>
+    <connection from="edge199" to="edge212" fromLane="0" toLane="0" tl="junc10" linkIndex="4"/>
+    <connection from="edge199" to="edge212" fromLane="1" toLane="1" tl="junc10" linkIndex="5"/>
+    <connection from="edge199" to="edge212" fromLane="2" toLane="2" tl="junc10" linkIndex="6"/>
+    <connection from="edge200" to="edge152" fromLane="0" toLane="0" tl="junc10" linkIndex="7"/>
+    <connection from="edge200" to="edge152" fromLane="0" toLane="1" tl="junc10" linkIndex="8"/>
+    <connection from="edge200" to="edge208" fromLane="0" toLane="0" tl="junc10" linkIndex="9"/>
+    <connection from="edge200" to="edge208" fromLane="1" toLane="1" tl="junc10" linkIndex="10"/>
+    <connection from="edge200" to="edge208" fromLane="2" toLane="2" tl="junc10" linkIndex="11"/>
+    <connection from="edge204" to="edge165" fromLane="0" toLane="0" tl="junc0" linkIndex="10"/>
+    <connection from="edge204" to="edge101" fromLane="0" toLane="0" tl="junc0" linkIndex="11"/>
+    <connection from="edge204" to="edge101" fromLane="1" toLane="1" tl="junc0" linkIndex="12"/>
+    <connection from="edge204" to="edge288" fromLane="1" toLane="0" tl="junc0" linkIndex="13"/>
+    <connection from="edge209" to="edge210" fromLane="0" toLane="0" tl="junc11" linkIndex="1"/>
+    <connection from="edge209" to="edge210" fromLane="1" toLane="1" tl="junc11" linkIndex="2"/>
+    <connection from="edge209" to="edge210" fromLane="2" toLane="2" tl="junc11" linkIndex="3"/>
+    <connection from="edge211" to="edge97" fromLane="0" toLane="0" tl="junc9" linkIndex="12"/>
+    <connection from="edge211" to="edge97" fromLane="1" toLane="1" tl="junc9" linkIndex="13"/>
+    <connection from="edge211" to="edge97" fromLane="2" toLane="2" tl="junc9" linkIndex="14"/>
+    <connection from="edge211" to="edge14" fromLane="2" toLane="0" tl="junc9" linkIndex="15"/>
+    <connection from="edge231" to="edge232" fromLane="0" toLane="0" tl="junc4" linkIndex="2"/>
+    <connection from="edge231" to="edge232" fromLane="1" toLane="1" tl="junc4" linkIndex="3"/>
+    <connection from="edge231" to="edge3113" fromLane="1" toLane="0" tl="junc4" linkIndex="4"/>
+    <connection from="edge236" to="edge249" fromLane="0" toLane="0" tl="junc6" linkIndex="7"/>
+    <connection from="edge236" to="edge183" fromLane="0" toLane="0" tl="junc6" linkIndex="8"/>
+    <connection from="edge236" to="edge183" fromLane="1" toLane="1" tl="junc6" linkIndex="9"/>
+    <connection from="edge253" to="edge97" fromLane="0" toLane="0" tl="junc9" linkIndex="5"/>
+    <connection from="edge253" to="edge97" fromLane="0" toLane="1" tl="junc9" linkIndex="7"/>
+    <connection from="edge253" to="edge97" fromLane="0" toLane="2" tl="junc9" linkIndex="8"/>
+    <connection from="edge253" to="edge14" fromLane="0" toLane="0" tl="junc9" linkIndex="6"/>
+    <connection from="edge253" to="edge206" fromLane="1" toLane="0" tl="junc9" linkIndex="10"/>
+    <connection from="edge253" to="edge206" fromLane="1" toLane="1" tl="junc9" linkIndex="9"/>
+    <connection from="edge253" to="edge206" fromLane="2" toLane="2" tl="junc9" linkIndex="11"/>
+    <connection from="edge28" to="edge3025" fromLane="0" toLane="0" tl="junc1" linkIndex="2"/>
+    <connection from="edge28" to="edge35" fromLane="0" toLane="0" tl="junc1" linkIndex="3"/>
+    <connection from="edge28" to="edge35" fromLane="1" toLane="1" tl="junc1" linkIndex="4"/>
+    <connection from="edge281" to="edge282" fromLane="0" toLane="0" tl="junc11" linkIndex="0"/>
+    <connection from="edge3021" to="edge152" fromLane="0" toLane="0" tl="junc10" linkIndex="0"/>
+    <connection from="edge3021" to="edge152" fromLane="1" toLane="1" tl="junc10" linkIndex="1"/>
+    <connection from="edge3021" to="edge208" fromLane="2" toLane="1" tl="junc10" linkIndex="2"/>
+    <connection from="edge3021" to="edge208" fromLane="2" toLane="2" tl="junc10" linkIndex="3"/>
+    <connection from="edge3023" to="edge14" fromLane="0" toLane="0" tl="junc9" linkIndex="1"/>
+    <connection from="edge3023" to="edge206" fromLane="0" toLane="0" tl="junc9" linkIndex="2"/>
+    <connection from="edge3023" to="edge206" fromLane="1" toLane="1" tl="junc9" linkIndex="3"/>
+    <connection from="edge3023" to="edge206" fromLane="2" toLane="2" tl="junc9" linkIndex="4"/>
+    <connection from="edge3028" to="edge288" fromLane="0" toLane="0" tl="junc0" linkIndex="3"/>
+    <connection from="edge3028" to="edge39" fromLane="0" toLane="0" tl="junc0" linkIndex="4"/>
+    <connection from="edge3028" to="edge39" fromLane="1" toLane="1" tl="junc0" linkIndex="5"/>
+    <connection from="edge3028" to="edge165" fromLane="1" toLane="0" tl="junc0" linkIndex="6"/>
+    <connection from="edge3119" to="edge3117" fromLane="0" toLane="0" tl="junc5" linkIndex="10"/>
+    <connection from="edge3119" to="edge234" fromLane="0" toLane="0" tl="junc5" linkIndex="11"/>
+    <connection from="edge3119" to="edge234" fromLane="1" toLane="1" tl="junc5" linkIndex="12"/>
+    <connection from="edge3119" to="edge34" fromLane="2" toLane="0" tl="junc5" linkIndex="13"/>
+    <connection from="edge3171" to="edge6" fromLane="0" toLane="0" tl="junc3" linkIndex="12"/>
+    <connection from="edge3171" to="edge6" fromLane="0" toLane="1" tl="junc3" linkIndex="14"/>
+    <connection from="edge3171" to="edge218" fromLane="0" toLane="0" tl="junc3" linkIndex="13"/>
+    <connection from="edge3171" to="edge218" fromLane="1" toLane="1" tl="junc3" linkIndex="15"/>
+    <connection from="edge3171" to="edge107" fromLane="2" toLane="0" tl="junc3" linkIndex="17"/>
+    <connection from="edge3171" to="edge107" fromLane="2" toLane="1" tl="junc3" linkIndex="16"/>
+    <connection from="edge3172" to="edge106" fromLane="0" toLane="0" tl="junc3" linkIndex="18"/>
+    <connection from="edge3172" to="edge106" fromLane="0" toLane="1" tl="junc3" linkIndex="20"/>
+    <connection from="edge3172" to="edge6" fromLane="0" toLane="0" tl="junc3" linkIndex="19"/>
+    <connection from="edge3172" to="edge6" fromLane="1" toLane="1" tl="junc3" linkIndex="21"/>
+    <connection from="edge3172" to="edge218" fromLane="2" toLane="0" tl="junc3" linkIndex="23"/>
+    <connection from="edge3172" to="edge218" fromLane="2" toLane="1" tl="junc3" linkIndex="22"/>
+    <connection from="edge3173" to="edge109" fromLane="0" toLane="0" tl="junc12" linkIndex="12"/>
+    <connection from="edge3173" to="edge109" fromLane="0" toLane="1" tl="junc12" linkIndex="14"/>
+    <connection from="edge3173" to="edge111" fromLane="0" toLane="0" tl="junc12" linkIndex="13"/>
+    <connection from="edge3173" to="edge111" fromLane="1" toLane="1" tl="junc12" linkIndex="15"/>
+    <connection from="edge3173" to="edge110" fromLane="2" toLane="0" tl="junc12" linkIndex="17"/>
+    <connection from="edge3173" to="edge110" fromLane="2" toLane="1" tl="junc12" linkIndex="16"/>
+    <connection from="edge3174" to="edge111" fromLane="0" toLane="0" tl="junc12" linkIndex="6"/>
+    <connection from="edge3174" to="edge111" fromLane="0" toLane="1" tl="junc12" linkIndex="8"/>
+    <connection from="edge3174" to="edge110" fromLane="0" toLane="0" tl="junc12" linkIndex="7"/>
+    <connection from="edge3174" to="edge110" fromLane="1" toLane="1" tl="junc12" linkIndex="9"/>
+    <connection from="edge3174" to="edge108" fromLane="2" toLane="0" tl="junc12" linkIndex="11"/>
+    <connection from="edge3174" to="edge108" fromLane="2" toLane="1" tl="junc12" linkIndex="10"/>
+    <connection from="edge3176" to="edge108" fromLane="0" toLane="0" tl="junc12" linkIndex="18"/>
+    <connection from="edge3176" to="edge108" fromLane="0" toLane="1" tl="junc12" linkIndex="20"/>
+    <connection from="edge3176" to="edge109" fromLane="0" toLane="0" tl="junc12" linkIndex="19"/>
+    <connection from="edge3176" to="edge109" fromLane="1" toLane="1" tl="junc12" linkIndex="21"/>
+    <connection from="edge3176" to="edge111" fromLane="2" toLane="0" tl="junc12" linkIndex="23"/>
+    <connection from="edge3176" to="edge111" fromLane="2" toLane="1" tl="junc12" linkIndex="22"/>
+    <connection from="edge3177" to="edge110" fromLane="0" toLane="0" tl="junc12" linkIndex="0"/>
+    <connection from="edge3177" to="edge110" fromLane="0" toLane="1" tl="junc12" linkIndex="2"/>
+    <connection from="edge3177" to="edge108" fromLane="0" toLane="0" tl="junc12" linkIndex="1"/>
+    <connection from="edge3177" to="edge108" fromLane="1" toLane="1" tl="junc12" linkIndex="3"/>
+    <connection from="edge3177" to="edge109" fromLane="2" toLane="0" tl="junc12" linkIndex="5"/>
+    <connection from="edge3177" to="edge109" fromLane="2" toLane="1" tl="junc12" linkIndex="4"/>
+    <connection from="edge3178" to="edge3179" fromLane="0" toLane="0" tl="junc7" linkIndex="5"/>
+    <connection from="edge3178" to="edge3260" fromLane="0" toLane="0" tl="junc7" linkIndex="6"/>
+    <connection from="edge3178" to="edge3260" fromLane="1" toLane="1" tl="junc7" linkIndex="7"/>
+    <connection from="edge3261" to="edge3263" fromLane="0" toLane="0" tl="junc8" linkIndex="3"/>
+    <connection from="edge3261" to="edge3263" fromLane="1" toLane="1" tl="junc8" linkIndex="4"/>
+    <connection from="edge3261" to="edge3262" fromLane="2" toLane="0" tl="junc8" linkIndex="5"/>
+    <connection from="edge46" to="edge107" fromLane="0" toLane="0" tl="junc3" linkIndex="0"/>
+    <connection from="edge46" to="edge107" fromLane="0" toLane="1" tl="junc3" linkIndex="2"/>
+    <connection from="edge46" to="edge106" fromLane="0" toLane="0" tl="junc3" linkIndex="1"/>
+    <connection from="edge46" to="edge106" fromLane="1" toLane="1" tl="junc3" linkIndex="3"/>
+    <connection from="edge46" to="edge6" fromLane="2" toLane="0" tl="junc3" linkIndex="5"/>
+    <connection from="edge46" to="edge6" fromLane="2" toLane="1" tl="junc3" linkIndex="4"/>
+    <connection from="edge59" to="edge58" fromLane="0" toLane="0" tl="junc4" linkIndex="0"/>
+    <connection from="edge59" to="edge58" fromLane="1" toLane="1" tl="junc4" linkIndex="1"/>
+    <connection from="edge63" to="edge34" fromLane="0" toLane="0" tl="junc5" linkIndex="3"/>
+    <connection from="edge63" to="edge105" fromLane="0" toLane="0" tl="junc5" linkIndex="4"/>
+    <connection from="edge63" to="edge105" fromLane="1" toLane="1" tl="junc5" linkIndex="5"/>
+    <connection from="edge63" to="edge3117" fromLane="2" toLane="0" tl="junc5" linkIndex="6"/>
+    <connection from="edge70" to="edge183" fromLane="0" toLane="0" tl="junc6" linkIndex="3"/>
+    <connection from="edge70" to="edge183" fromLane="0" toLane="1" tl="junc6" linkIndex="4"/>
+    <connection from="edge70" to="edge61" fromLane="1" toLane="0" tl="junc6" linkIndex="5"/>
+    <connection from="edge70" to="edge61" fromLane="1" toLane="1" tl="junc6" linkIndex="6"/>
+    <connection from="edge92" to="edge39" fromLane="0" toLane="0" tl="junc0" linkIndex="0"/>
+    <connection from="edge92" to="edge165" fromLane="0" toLane="0" tl="junc0" linkIndex="1"/>
+    <connection from="edge92" to="edge101" fromLane="0" toLane="1" tl="junc0" linkIndex="2"/>
+    <connection from="edge98" to="edge35" fromLane="0" toLane="0" tl="junc1" linkIndex="0"/>
+    <connection from="edge98" to="edge176" fromLane="0" toLane="1" tl="junc1" linkIndex="1"/>
+</tlLogics>
