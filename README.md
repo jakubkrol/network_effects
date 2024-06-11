@@ -6,7 +6,7 @@ More details regarding installation is coming soon...
 
 The GPR models that were obtained as a result of running the simulation are not included here due to their size but are available on request. 
 
-** SUMO Installation **
+**SUMO Installation**
 
 Below is the link to the SUMO installation guide
 
