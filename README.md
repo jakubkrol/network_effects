@@ -1,10 +1,14 @@
-The main file required to run simulation is var_param_sim.py.
+### Running Simulation
+
+In order to run simulation full network effect simulation please use var_param_sim.py.
 
 Please note that in order to run the simulation GPOPS-II licence and SUMO installations are required.
 
-More details regarding installation is coming soon...
-
 The GPR models that were obtained as a result of running the simulation are not included here due to their size but are available on request. 
+
+_Note_ _on_ _Reproducibility_
+
+We would like to caution that reproducing the simulations might lead to some discrepancies in comparison to the results presented within our study. This variability largely stems from stochastic elements within our methodology, such as the initial random sampling of the inputs that are used to train GPR model might inadequately cover the input space, potentially influencing the initial state of the GP model. Furthermore, the strategy of randomly selecting vehicles uniformly for the eco-driving simulations also adds to the unpredictability of the outcomes. Please note that the code that is included in this repository is seeded which means that the same eco-vehicles should be used. We also include a matlab file "get_initial_data.m" which was used to obtain the initial data set for training GP model.
 
 ### SUMO Installation
 
